@@ -1,0 +1,98 @@
+# 2026-06 회고
+
+총 커밋 수: 92
+
+## 주요 작업
+
+- fix: 마이페이지 선호 스타일 표시 기준 수정
+- fix: 지난 여행 장소 시간순 정렬 적용
+- chore: Expo 권장 패키지 버전 정리
+- test: 배포 전 스모크 테스트 추가
+- fix: Android 운영 빌드 설정 정리
+- fix: Android 알림 채널 기본 사운드 경고 제거
+- fix: Android Google Maps 설정 반영
+- fix: Android 지도 렌더링 설정 보강
+- fix: Android Google Maps 설정 명시
+- chore: 운영 배포 전 QA 디버그 로그 정리
+- fix: Android Google Maps 설정 정리
+- chore: API 서버 환경 분리
+- fix: 여행 이름 입력 화면 키보드 대응
+- style: 하단 탭 디자인 정리
+- feat: 메모 목록 및 수정 삭제 UX 개선
+- fix: 온보딩 건너뛰기 중복 표시 제거
+- design: Plan.X 목록 카드 액션 정리
+- design: Plan.A 메모 입력 UI 정리
+- style: 빈 시간 추천 카드 UI 개선
+- style: 장소 검색 및 상세 카드 UI 개선
+- style: Plan.A 편집 화면 빈 장소 UI 개선
+- style: 진행중 일정 조회 화면 카드 UI 개선
+- style: 대안 설정 및 분석 로딩 화면 개선
+- style: 대안 추천 결과 화면 UI 정리
+- feat: 방문 시간 휠 선택 UI 개선
+- style: 장소 사이 점선 두께 조정
+- style: 빈 시간 추천 카드 UI 개선
+- style: PlanA 지도 미리보기 UI 개선
+- style: 진행중 일정 장소 카드 UI 개선
+- design: 바텀탭 아이콘 교체
+- design: 메인 화면 레이아웃 정리
+- chore: refresh 주석 정리
+- design: 온보딩 화면 UI 개선
+- Update config.ts
+- fix: iOS 카카오 로그인 설정 및 배포 설정 정리
+- fix: iOS 빌드 설정 및 앱 아이콘 정리
+- fix: API 요청 타임아웃 60초로 조정
+- chore: 안드로이드 EAS 빌드 설정 수정
+- chore: 앱 로고 리소스 교체
+- chore: 안드로이드 EAS 빌드 설정 수정
+- chore: @amplitude/analytics-react-native 패키지 추가
+- fix: 추천 결과 및 로그인 타입 오류 수정
+- merge: expo/react-native 버전 업 + Amplitude 트래킹 병합
+- feat: Amplitude 이벤트 트래킹 추가 (17개 이벤트, iOS/Android)
+- chore: Android 빌드 전 설정 및 의존성 정리
+- chore: 앱 아이콘 리소스 추가
+- chore: 앱 아이콘 설정 추가
+- fix: 일정 자동 스크롤 경고 및 갭 추천 로그 정리
+- fix: PlanX 헤더 및 상세 보기 UI 정리
+- fix: 장소 상세 조회 식별값 방어 로직 추가
+- fix: 지도 provider 및 갭 추천 장소 추가 방어 로직 정리
+- fix: iOS 일정 지도 기본 provider 사용
+- fix: 빈시간추천 error처리/이동수단 저장유지/뒤로가기 복귀/미래일정 추천이동 등 추가 수정
+- fix: PlanX 및 프로필 안정화 반영
+- fix: 날씨 알림 카드 전환 애니메이션 개선
+- fix: 대안 추천 결과 및 날씨 대체 흐름 개선
+- fix: 빈시간 추천 선택 및 Day 기준 표시 개선
+- fix: 장소 검색 및 상세 정보 조회 안정화
+- fix: 토큰 갱신 및 인증 만료 처리 안정화
+- fix: 소셜 로그인 리다이렉트 처리 안정화
+- fix: OAuth 리다이렉트 처리 안정화
+- fix: 진행중 일정 Day 전환 재조회 개선
+- fix: PlanA 재조회 및 캐시 동기화 개선
+- fix: 메인 일정 조회 및 다음 여행 표시 개선
+- fix: 지도 표시 및 프로필 선호 스타일 반영
+- chore: 요청 파라미터 디버그 로그 정리
+- chore: QA 및 디버그 로그 정리
+- refactor: 진행중 일정 재조회 훅 분리
+- refactor: 진행중 일정 서버 재조회 로직 분리
+- refactor: 진행중 일정 Gap 추천 영역 분리
+- fix: 인증 실패 처리 안정화
+- fix: 푸시 토큰 등록 실패 시 로그인 유지
+- fix: 장소 리뷰 UX 및 지도 표시 개선
+- fix: 장소 리뷰 UX 및 지도 마커 표시 개선
+- refactor: 장소 리뷰 조회 로직 분리
+- fix: 진행중 일정 Day 재조회 기준 동기화
+- refactor: 장소 리뷰 유틸 및 상세 UI 분리
+- refactor: 장소 검색 카드 및 상세 모달 분리
+- refactor: 장소 검색 결과 카드 분리
+- refactor: Plan.A 편집 행 및 헤더 분리
+- refactor: Plan.A 헤더 섹션 분리
+- refactor: Plan.A 편집 모드 장소 행 분리
+- refactor: Plan.A 보기 모드 장소 행 분리
+- fix: 소셜 로그인 유저 비밀번호 변경 UI 숨김
+- fix: 소셜 로그인 유저 비밀번호 변경 UI 숨김
+- refactor: Plan.A 시간 선택 모달 분리
+- refactor: Plan.A 화면 유틸 함수 분리
+- refactor: 온보딩 공통 요소 분리 및 미사용 에셋 제거
+- refactor: 온보딩 화면 전환 구조 개선
+- fix: 인증 제외 요청의 토큰 재발급 처리 방지
+- feat: 진행중 일정 Day 단위 부분 재조회 적용
+- feat: 온보딩 화면 디자인 및 안내 문구 개선
