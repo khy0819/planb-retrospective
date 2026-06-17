@@ -1,12 +1,18 @@
-# planb-retrospective
-Plan.B 개발 회고 및 프로젝트 아카이브 (2026.02 ~ 2026.06)
+# Plan.B Retrospective
 
----
+Plan.B 개발 과정을 정리한 작업 로그 아카이브입니다.
 
-# Story
+## Daily Logs
 
-- [01. 처음 앱을 만들다](./story/01-project-start.md)
-- [02. MVP 개발기](./story/02-building-mvp.md)
-- [03. QA와 배포](./story/03-stabilization-and-release.md)
-- [04. 최종 회고](./story/04-final-retrospective.md)
+- [2026-03](./daily/2026-03.md)
+- [2026-04](./daily/2026-04.md)
+- [2026-05](./daily/2026-05.md)
+- [2026-06](./daily/2026-06.md)
 
+## Monthly Drafts
+
+- [2026-02](./monthly/2026-02.md)
+- [2026-03](./monthly/2026-03.md)
+- [2026-04](./monthly/2026-04.md)
+- [2026-05](./monthly/2026-05.md)
+- [2026-06](./monthly/2026-06.md)
